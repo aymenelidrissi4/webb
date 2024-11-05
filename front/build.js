@@ -3,7 +3,7 @@ import Bun from "bun";
 async function main() {
     await Bun.build({
         entrypoints: ["./src/index.jsx"],
-        outdir: "out"
+        outdir: "../src/main/webapp/WEB-INF/resources/js"
     })
 }
 
