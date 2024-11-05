@@ -40,4 +40,6 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <mvc:resources mapping="/js/**" location="/WEB-INF/resources/js/"/>
+
 </beans>
